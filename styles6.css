@@ -1,0 +1,172 @@
+*, ::before, ::after{
+    box-sizing: border-box;
+    
+    
+}
+
+:root{
+    --header-color: #007f73;
+}
+
+body{font-family:'Courier New', Courier, monospace
+    
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    min-height: 75px;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0%;
+    width: 100%;}
+
+    
+
+
+a{text-decoration: none;
+color: black}
+    
+header a{
+    color: #68FDBD;
+     text-decoration: none;
+}
+
+header p{
+    display: flex;
+    gap: 200px;
+    font-size: x-large;
+    font-weight: bolder;
+    
+}
+
+header div{
+    margin-right: 150px
+}
+
+
+#about{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4CCD99;
+    
+}
+
+.introduction{
+    color: black;
+    border-radius: 5px;
+    border-style:none;
+    max-width: 100vw;
+    -webkit-box-shadow: -18px -8px 77px 76px rgba(0,0,0,0.75);
+-moz-box-shadow: -18px -8px 77px 76px rgba(0,0,0,0.75);
+box-shadow: -18px -8px 77px 76px rgba(0,0,0,0.75);
+
+}
+
+.introduction h1{
+   margin-top: 0;  text-align: center; font-weight: bolder; font-size: xxx-large;
+}
+
+.introduction p{
+    margin-top: -35px;  font-weight: bold; font-size: x-large; text-align: center;
+}
+
+#projects{
+    background-color: black;
+    height: 120vh;
+    color: #68FDBD;
+    
+}
+
+.projects-file1{
+    text-decoration: none;
+}
+
+.my-projects{
+    text-align: center;
+}
+
+.photo{
+    width: 350px;
+}
+.photo2{
+    width: 350px;
+    height: 270px;
+}
+
+.div-span{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    text-align: center;
+}
+
+#projects .div-span{
+ font-size: larger; font-weight: 700; 
+}
+
+.div-span p{
+    color: #68FDBD; 
+}
+
+    
+
+ span{
+    color: #FF9400;
+ }
+
+ .project-file1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+ }
+
+ .project-file2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+
+ .project-file3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+
+ #contact{
+    text-align: center;
+    background-color: #68FDBD;
+    margin-top: 20px;
+ }
+    
+ #contact h2{
+    font-size: xx-large;
+ }
+
+
+ #contact p{
+    font-weight: 600;
+ }
+
+ footer{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: #68FDBD;
+    font-size: x-large;
+ }
+
+ .social-icons a{
+  font-size: x-large;
+  
+    
+ 
+  
+ }
